@@ -62,12 +62,8 @@ function Row(props) {
             onClick={() => handleClick(movie)}
             key={movie.id}
             className={`row__poster ${isLargeRow ? "row__posterLarge" : ""}`}
-            src={
-              isLargeRow
-                ? `${base_URL}${movie?.poster_path}`
-                : `${base_URL}${
-                    movie?.backdrop_path || "G3vrVlsqsNPSYvyoG2lTRxVGom.jpg"
-                  }`
+            //prettier-ignore
+            src={isLargeRow?`${base_URL}${movie?.poster_path }`:`${base_URL}${movie?.backdrop_path || "G3vrVlsqsNPSYvyoG2lTRxVGom.jpg"}`
             }
             alt={movie.name}
           />

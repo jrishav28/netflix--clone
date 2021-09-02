@@ -26,21 +26,21 @@ const Navbar = () => {
       <nav className="nav-left">
         <ul>
           <li>
-            <a className="active" href="#">
+            <a className="active" href="#home">
               Home
             </a>
           </li>
           <li>
-            <a href="#">Tv Shows</a>
+            <a href="#tv">Tv Shows</a>
           </li>
           <li>
-            <a href="#"> Movies</a>
+            <a href="#movie"> Movies</a>
           </li>
           <li>
-            <a href="#"> Recently Added</a>
+            <a href="#recent"> Recently Added</a>
           </li>
           <li>
-            <a href="#">My List</a>
+            <a href="#list">My List</a>
           </li>
         </ul>
       </nav>
