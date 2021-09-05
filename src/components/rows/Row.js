@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import axios from "./axios";
-import "./CSS/row.css";
+import axios from "C:/Users/Rishav Jain/Desktop/NS FrontEnd/RJ/REACT project/netflix--clone/src/axios.js";
+import "./row.css";
 import YouTube from "react-youtube";
 import movieTrailer from "movie-trailer";
+
 function Row(props) {
   let { title, fetchUrl, isLargeRow } = props;
 
@@ -69,7 +70,9 @@ function Row(props) {
           />
         ))}
       </div>
-      {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
+      {trailerUrl && (
+        <YouTube className="youtube" videoId={trailerUrl} opts={opts} />
+      )}
       {/* <YouTube videoId="EzSzSwbWRJc" opts={opts} /> */}
     </div>
   );

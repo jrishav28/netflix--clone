@@ -1,0 +1,8 @@
+1. change Name to moivies app
+2. change navbar
+2. make resposive. for mobile.
+3. add slider button
+4. add login page
+5. play trailer for banner moivie also
+6. add movie description for All moveies
+7. 

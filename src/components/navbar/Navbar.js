@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./CSS/nav.css";
+import "./nav.css";
 import { AiOutlineCaretDown } from "react-icons/ai";
 import { BiSearch } from "react-icons/bi";
 import { BsFillBellFill } from "react-icons/bs";
@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className={`nav ${show ? "nav__black" : ""}`}>
       {/* home Tv schows Movies recently addeed My List */}
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1198px-Netflix_2015_logo.svg.png"
+        src="https://iconape.com/wp-content/png_logo_vector/video-camera.png"
         alt="netflix logo"
         className="nav__logo"
       />
