@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import requests from "C:/Users/Rishav Jain/Desktop/NS FrontEnd/RJ/REACT project/netflix--clone/src/requests";
-import axios from "C:/Users/Rishav Jain/Desktop/NS FrontEnd/RJ/REACT project/netflix--clone/src/axios.js";
+import requests from "../requests";
+import axios from "../axios.js";
 import "./banner.css";
 function Banner() {
   const [movie, setMovie] = useState([]);

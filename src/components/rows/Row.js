@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "C:/Users/Rishav Jain/Desktop/NS FrontEnd/RJ/REACT project/netflix--clone/src/axios.js";
+import axios from "../axios.js";
 import "./row.css";
 import YouTube from "react-youtube";
 import movieTrailer from "movie-trailer";

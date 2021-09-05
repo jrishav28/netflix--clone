@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Row from "./components/rows/Row";
-import requests from "./requests";
+import requests from "./components/requests";
 import Banner from "./components/banner/Banner";
 import Navbar from "./components/navbar/Navbar";
 
