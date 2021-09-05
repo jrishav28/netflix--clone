@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Banner />
       <Row
-        title="Most Popular"
+        title="Recommended"
         fetchUrl={requests.fetchNetflixOriginal}
         isLargeRow
       ></Row>
