@@ -58,7 +58,7 @@
   );
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .banner {
     object-fit: contain;
     height: 150px;

@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className={`nav ${show ? "nav__black" : ""}`}>
       {/* home Tv schows Movies recently addeed My List */}
       <img
-        src="https://iconape.com/wp-content/png_logo_vector/video-camera.png"
+        src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
         alt="netflix logo"
         className="nav__logo"
       />

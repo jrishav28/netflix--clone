@@ -42,7 +42,7 @@
 .row__posterLarge:hover {
   transform: scale(1.1);
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .row {
     margin-top: 10px;
     margin-left: 5px;
